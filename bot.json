@@ -1,5 +1,0 @@
-var url = https://block.io/api/v2/get_balance/?api_key=031a-eae8-1441-1d24
-if (/balance) url += get_balance;
-var data = JSON.parse(UrlFetchApp.fetch(url).getContentText());
-this.replyToSender(data.balance);
-}
